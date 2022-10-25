@@ -1,0 +1,56 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+.nav-menu {
+    display: flex;
+}
+
+.nav-menu li {
+    padding: 0 25px;
+}
+
+.nav-menu li a {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.burger {
+    display: none;
+}
+
+@media screen and (max-width: 1040px) {
+    .nav-menu {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 500px;
+        background: #292828;
+        position: absolute;
+        top: 0;
+        left: 100%;
+        z-index: -4;
+        transition: 0.2s;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .nav-menu li {
+        padding: 10px 0;
+
+    }
+
+    .nav-menu li a {
+        font-size: 25px;
+    }
+
+    .burger{
+        display: initial;
+    }
+}
