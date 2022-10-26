@@ -4,15 +4,16 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  color: #91add9 ;
   font-family: 'Playfair Display', serif;
 }
 
 body {
-  background-color: #292828;
+  background-color: #252525;
 }
 
 h1, p, a {
-  color: #ffd;
+  color: #91add9;
   text-decoration: none;
 }
 
@@ -24,20 +25,20 @@ ul {
   padding: 12px 32px;
   font-size: 10px;
   text-transform: uppercase;
-  background: #ffb;
+  background: #91add9;
   color: #222;
-  border: 1px solid #ffd;
+  border: 1px solid #fff;
   font-weight: 700;
   cursor: pointer;
 }
 
 .btn-light {
   background: transparent;
-  color: #ffd;
+  color: #91add9;
 }
 
 .btn:hover {
   background: #292828;
-  color: #ffd;
+  color: #91add9;
   transition: 0.2s;
 }

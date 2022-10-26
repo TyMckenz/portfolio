@@ -1,0 +1,14 @@
+.about {
+    text-align: center;
+    height: 100%;
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 50px;
+}
+
+.short {
+    max-width: 50%;
+    margin: auto;
+    font-size: 20px;
+}
