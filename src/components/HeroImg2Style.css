@@ -1,0 +1,75 @@
+.hero-img {
+    height: 500px;
+    width: 100%;
+    position: relative;
+    background-color: #222 ;
+}
+
+.project-page {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.education-page {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.skills-page {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.experience-page {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+
+
+.hero-img .mid {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 40%;
+    left: 50%;
+    text-align: center;
+}
+
+.hero-img .mid h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.hero-img .mid h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 640px) {
+    .hero-img .mid h1 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+    
+    .hero-img .mid h3 {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    .hero-img .mid h4 {
+        font-size: 15px;
+    }
+}
+

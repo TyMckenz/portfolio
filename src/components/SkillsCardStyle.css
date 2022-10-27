@@ -1,0 +1,33 @@
+.cards {
+    width: 100%;
+    padding: 95px 15px;
+}
+
+.edu-container {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+}
+
+
+.card-container {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px;
+}
+
+.card {
+    border: 0.5px solid;
+}
+
+@media screen and (max-width: 640px) {
+    .card-container {
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}
