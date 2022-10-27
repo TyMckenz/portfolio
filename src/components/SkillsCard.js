@@ -33,7 +33,8 @@ const SkillsCard = () => {
             <div>
                 <h1>Physical Skills</h1>
                 <p>Fitness/Training</p>
-                <p>Manual Labour</p>
+                <p>Manual Dexterity</p>
+                <p>Focus Under Pressure</p>
             </div>
         </div>
     </div>
