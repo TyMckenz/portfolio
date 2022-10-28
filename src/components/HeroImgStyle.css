@@ -51,7 +51,7 @@
     margin: 5px 5px;
 }
 
-@media screen and (max-width: 640px){
+@media screen and (max-width: 740px){
     .hero .content h1 {
         font-size: 40px;
         font-weight: 800;

@@ -1,5 +1,6 @@
 import "./SkillsCardStyle.css";
-import React from 'react'
+import React from 'react';
+import { Link } from "react-router-dom";
 
 const EducationCard = () => {
   return (
@@ -25,8 +26,7 @@ const EducationCard = () => {
               <p><b>Fitness:</b> Olympic Lifting, Training,</p>
               <p>Coaching(Training, Wrestling)</p>
               <p><b>Coding:</b> Python</p>
-              <p><b>Various Labour Jobs:</b> Painting, Landscaping,</p>
-              <p>Demo, Woodworking</p>
+              <p><b>Various Labour Jobs:</b><Link to="/experience"><u>Click To Go To Experience</u></Link></p>
             </div>
         </div> 
     </div>

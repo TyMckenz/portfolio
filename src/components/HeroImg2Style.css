@@ -52,15 +52,26 @@
     font-weight: 700;
 }
 
+.hero-img .mid h2 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
 .hero-img .mid h3 {
     font-size: 30px;
     font-weight: 600;
 }
 
-@media screen and (max-width: 640px) {
+
+
+@media screen and (max-width: 740px) {
     .hero-img .mid h1 {
         font-size: 40px;
         font-weight: 700;
+    }
+    .hero-img .mid h2 {
+        font-size: 30px;
+        font-weight: 600;
     }
     
     .hero-img .mid h3 {

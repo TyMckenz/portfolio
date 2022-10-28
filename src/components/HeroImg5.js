@@ -10,7 +10,7 @@ const HeroImg5 = () => {
         </div>
         <div className="mid">
             <h1>Experience</h1>
-            <h3>A Description Of My Previous Work</h3>
+            <h2>Recent Workplaces And Side Jobs</h2>
         </div>
     </div>
   )

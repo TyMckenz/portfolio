@@ -1,0 +1,46 @@
+.gh-heading {
+    text-align: center;
+    padding: 30px 0 15px 0;
+}
+
+.small-container {
+    max-width: 1140px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    padding-bottom: 80px;
+}
+
+.gh-card {
+    background: #252525;
+    padding: 20px 15px;
+}
+
+.gh-card img {
+    width: 100%;
+}
+
+.hub-title {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.hub-details {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.hub-btn {
+    padding: 40px 0;
+}
+
+
+
+@media screen and (max-width: 740px) {
+    .small-container {
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+}
