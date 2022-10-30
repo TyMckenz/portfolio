@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="left">
             <div className="phone">
                 <FaPhone size={20} style={{color: "#fff", marginRight: "5px"}}/>
-                1-204-XXX-XXXX
+                1-204-930-8448
             </div>
             <div className="email">
                 <FaMailBulk size={20} style={{color: "#fff", marginRight: "5px"}}/>
@@ -20,8 +20,8 @@ const Footer = () => {
         <h3>Tyler Mckenzie</h3>
         <p>New graduate from the Full Stack Web Development course through Robertson College.</p>
         <div className="social">
-            <FaGithub size={20} style={{color: "#fff", marginRight: "5px"}}/>
-            <FaLinkedin size={20} style={{color: "#fff", marginRight: "5px"}}/>
+        <a target = "_blank" rel="noreferrer" href = "https://github.com/TyMckenz"><FaGithub size={20} style={{color: "#fff", marginRight: "5px"}}/></a>
+        <a target = "_blank" rel="noreferrer" href = "https://www.linkedin.com/in/tyler-mckenzie-trm/"><FaLinkedin size={20} style={{color: "#fff", marginRight: "5px"}}/></a>
         </div>
         </div> 
     </div>
