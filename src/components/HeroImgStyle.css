@@ -12,6 +12,10 @@
     object-fit: cover;
 }
 
+.btn-class {
+    right: 40%;
+}
+
 .mask::after {
     content: "";
     height: 100%;
@@ -44,12 +48,16 @@
 .hero .content p {
     font-size: 20px;
     font-weight: 500;
-    padding: 20px 0 30px;
+    padding: 5% 0 8%;
 }
 
 .content .btn {
-    margin: 5px 5px;
+padding: 3% 4.5%; 
+margin-inline: 1%;
+font-size: x-small;
 }
+
+
 
 @media screen and (max-width: 740px){
     .hero .content h1 {
