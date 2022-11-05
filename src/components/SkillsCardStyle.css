@@ -1,6 +1,6 @@
 .cards {
     width: 100%;
-    padding: 2em 1.5em;
+    padding: 2rem 1.5rem;
 }
 
 .edu-container {
@@ -8,7 +8,7 @@
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1em;
+    grid-gap: 1rem;
 }
 
 
@@ -17,13 +17,19 @@
     margin: auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 1em;
+    grid-gap: 1rem;
 }
 
 
 
 @media screen and (max-width: 740px) {
     .card-container {
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: 1fr;
+    }
+
+    .edu-container {
         max-width: 90%;
         margin: auto;
         grid-template-columns: 1fr;

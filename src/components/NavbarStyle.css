@@ -2,9 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1.5em;
+    padding: 1.5rem;
     position: fixed;
-    height: 4em;
+    height: 4rem;
     width: 100%;
     z-index: 10;
 }
@@ -19,7 +19,7 @@
 }
 
 .nav-menu li {
-    padding: 0 1em;
+    padding: 0 1rem;
 }
 
 .nav-menu li a {

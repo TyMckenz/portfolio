@@ -1,6 +1,6 @@
 .gh-heading {
     text-align: center;
-    padding: 2em 0 1em;
+    padding: 2rem 0 1rem;
 }
 
 .small-container {
@@ -8,13 +8,13 @@
     margin: auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 1em;
-    padding-bottom: 2em;
+    grid-gap: 1rem;
+    padding-bottom: 2rem;
 }
 
 .gh-card {
     background: #252525;
-    padding: 1.5em 1em;
+    padding: 1.5rem 1rem;
 }
 
 .gh-card img {
@@ -23,16 +23,16 @@
 
 .hub-title {
     text-align: center;
-    padding: 1em 0;
+    padding: 1rem 0;
 }
 
 .hub-details {
     text-align: center;
-    padding: 0.5em 0;
+    padding: 0.5rem 0;
 }
 
 .hub-btn {
-    padding: 2em 0;
+    padding: 2rem 0;
 }
 
 

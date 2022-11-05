@@ -1,6 +1,6 @@
 .mask {
     width: 100%;
-    height: 30em;
+    height: 30rem;
     position: relative;
 }
 
@@ -13,7 +13,7 @@
 }
 
 .btn-class {
-    right: 40%;
+    right: 50%;
 }
 
 .mask::after {
@@ -48,13 +48,13 @@
 .hero .content p {
     font-size: 20px;
     font-weight: 500;
-    padding: 1em 0 2em;
+    padding: 1rem 0 2rem;
 }
 
 .content .btn {
-padding: 1em 2em; 
+padding: 0.5rem 1rem; 
 margin-inline: 1%;
-font-size: 0.6em;
+font-size: 0.7rem;
 }
 
 
