@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="left">
             <div className="phone">
                 <FaPhone size={20} style={{color: "#fff", marginRight: "5px"}}/>
-                1-204-930-8448
+                Please Email
             </div>
             <div className="email">
                 <FaMailBulk size={20} style={{color: "#fff", marginRight: "5px"}}/>
