@@ -27,11 +27,13 @@
         max-width: 90%;
         margin: auto;
         grid-template-columns: 1fr;
+        text-align: center;
     }
 
     .edu-container {
         max-width: 90%;
         margin: auto;
         grid-template-columns: 1fr;
+        text-align: center;
     }
 }
