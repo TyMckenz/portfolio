@@ -12,9 +12,6 @@
     object-fit: cover;
 }
 
-.btn-class {
-    right: 50%;
-}
 
 .mask::after {
     content: "";
