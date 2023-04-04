@@ -12,8 +12,8 @@ const HeroImg = () => {
       <div className="content">
         <h1>Tyler Mckenzie</h1>
         <p>Full Stack Web Developer.</p>
-        <div>
-          <Link to="/skills" className="btn">
+        <div className="centered">
+          <Link to="/skills" className="btn btn1">
             Skills
           </Link>
           <Link to="/education" className="btn">
@@ -22,7 +22,7 @@ const HeroImg = () => {
           <Link to="/experience" className="btn">
             Experience
           </Link>
-          <Link to="/projects" className="btn">
+          <Link to="/projects" className="btn btn4">
             Projects
           </Link>
         </div>

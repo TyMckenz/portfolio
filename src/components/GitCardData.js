@@ -13,8 +13,8 @@ const GithubCardData = [
     imgcard: GHLogo,
     title: 'Tailwind Sneaker Store',
     text:
-      'Fake sneaker store using Next.JS, MongoDB and Tailwind CSS ' +
-      'Store Name: Cheeky Sneakies.',
+      'Fake sneaker store using Next.JS, MongoDB and Tailwind CSS. ' +
+      ' Store Name: Cheeky Sneakies.',
     visit: 'https://github.com/TyMckenz/tailwind-sneaker-store',
   },
   {
